@@ -1,4 +1,5 @@
-import java.util.Scanner class hello2
+import java.util.Scanner 
+class hello2
 {
 public static void main(String args[])
 {
