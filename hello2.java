@@ -1,10 +1,16 @@
-import java.util.Scanner;
-class hello2
-{
-public static void main(String args[])
-{
-Scanner sc= new Scanner(System.in);
-int sc=sc.nexInt();
-System.out.println("hello"+sc);
-}
+
+import java.util.Scanner; // import the Scanner class 
+
+class main2 {
+  public static void main(String[] args) {
+    
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+	Scanner myObj = new Scanner(System.in);
+    String userName;
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
 }
